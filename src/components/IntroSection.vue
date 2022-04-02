@@ -1,24 +1,26 @@
   <template>
-    <div class="container">
-        <main>
-            <div class="rectangle"></div>
-            <div class="main-content">
-                <p class="greetings">Bonjour,</p>
-                <h1 class="main-title">
-                    Je suis Cong-Thuan Do.
-                    <br />
-                    <span>Je suis Développeur Fullstack.</span>
-                </h1>
-                <p class="subtitle">
-                    <span>J'aime concevoir et construire</span>
-                    des interfaces utilisateurs,
-                    des outils digitaux et plus largement
-                    des expériences personnalisés.
-                </p>
-                <a href="#contact" class="btn contact-btn">Envie de discuter ?</a>
-            </div>
-        </main>
-    </div>
+    <section id="intro_section">
+        <div class="container">
+            <main>
+                <div class="rectangle"></div>
+                <div class="main-content">
+                    <p class="greetings">Bonjour,</p>
+                    <h1 class="main-title">
+                        Je suis Cong-Thuan Do.
+                        <br />
+                        <span>Je suis Développeur Fullstack.</span>
+                    </h1>
+                    <p class="subtitle">
+                        <span>J'aime concevoir et construire</span>
+                        des interfaces utilisateurs,
+                        des outils digitaux et plus largement
+                        des expériences personnalisées.
+                    </p>
+                    <a href="#contact" class="btn contact-btn">Envie de discuter ?</a>
+                </div>
+            </main>
+        </div>
+    </section>
 </template>
 
 <script setup>
@@ -27,8 +29,12 @@
 
 
 <style lang="scss" scoped>
+#intro_section {
+    min-height: 100vh;
+}
+
 .container {
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 main {

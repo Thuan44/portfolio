@@ -1,14 +1,11 @@
-  <template>
-  <h1>My Portfolio</h1>
+<template>
+  <IntroSectionVue></IntroSectionVue>
 </template>
 
 <script setup>
-
+import IntroSectionVue from '../components/IntroSection.vue';
 </script>
 
 
 <style lang="scss" scoped>
-h1 {
-  color: $secondary-color;
-}
 </style>

@@ -1,14 +1,13 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import Homepage from './views/Homepage.vue'
-</script>
-
 <template>
   <Homepage />
 </template>
 
-<style>
+<script setup>
+import Homepage from './views/Homepage.vue'
+</script>
+
+
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -16,5 +15,10 @@ import Homepage from './views/Homepage.vue'
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #02021f;
 }
 </style>

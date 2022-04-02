@@ -12,7 +12,7 @@
                         <a href="#profile" class="link-item">Profil</a>
                     </li>
                     <li>
-                        <a href="#" class="link-item">Expériences</a>
+                        <a href="#experiences" class="link-item">Expériences</a>
                     </li>
                     <li>
                         <a href="#" class="link-item">Projets</a>

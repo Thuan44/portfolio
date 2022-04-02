@@ -121,12 +121,14 @@
   <TheNavbar></TheNavbar>
   <IntroSection></IntroSection>
   <Profile></Profile>
+  <Experiences></Experiences>
 </template>
 
 <script setup>
 import TheNavbar from '../components/TheNavbar.vue';
 import IntroSection from '../components/IntroSection.vue';
 import Profile from '../components/Profile.vue';
+import Experiences from '../components/Experiences.vue';
 </script>
 
 

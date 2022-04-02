@@ -85,7 +85,7 @@ main {
 
     .profile-title {
         position: absolute;
-        top: -25px;
+        top: -20px;
         left: -45px;
         color: $secondary-color;
         font-size: 2.2rem;

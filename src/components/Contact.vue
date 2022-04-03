@@ -61,4 +61,10 @@ main {
         text-shadow: 0 0 10px rgba(0, 220, 130, 0.15);
     }
 }
+
+@media screen and (max-width: 992px) {
+    .contact-title {
+        width: 300px;
+    }
+}
 </style>

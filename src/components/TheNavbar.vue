@@ -1,13 +1,13 @@
 <template>
-    <nav id="navbar">
-        <div class="logo-menu d-flex justify-content-between align-items-center">
+    <nav id="navbar" class="navbar navbar-expand-md">
+        <div class="logo-menu container-fluid">
             <a href="#">
                 <div class="logo-container ms-4">
                     <img src="@/assets/img/ctd_logo_transparent.png" class="w-100" />
                 </div>
             </a>
-            <div>
-                <ul class="list-unstyled menu mb-0">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="list-unstyled menu mb-0 navbar-nav ms-auto">
                     <li>
                         <a href="#profile" class="link-item">Profil</a>
                     </li>
@@ -30,6 +30,17 @@
                 </ul>
             </div>
         </div>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <i class="fa-solid fa-bars"></i>
+        </button>
     </nav>
 </template>
 
@@ -56,6 +67,13 @@ nav {
         justify-items: center;
         justify-content: center;
         padding: 2px 0;
+    }
+
+    .navbar-toggler {
+        color: #fff !important;
+        position: absolute;
+        top: 20px;
+        right: 20px;
     }
 
     li {
@@ -111,6 +129,19 @@ nav {
             filter: brightness(110%);
             background-color: rgba(62, 96, 70, 0.3);
         }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-collapse {
+        margin-top: 20px;
+    }
+    .menu {
+        display: flex !important;
+        flex-direction: column;
+        align-items: end !important;
+        justify-content: end;
+        justify-items: end;
     }
 }
 </style>

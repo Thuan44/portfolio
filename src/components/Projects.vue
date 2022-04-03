@@ -6,7 +6,11 @@
 
                 <!-- Project 1 -->
                 <div class="main-content project-1">
-                    <a href="http://pournoobs-frontend.herokuapp.com" target="_blank">
+                    <a
+                        href="http://pournoobs-frontend.herokuapp.com"
+                        target="_blank"
+                        class="img-link"
+                    >
                         <div class="project-img-container">
                             <img
                                 src="@/assets/img/projects/pournoobs.png"
@@ -41,7 +45,7 @@
 
                 <!-- Project 2 -->
                 <div class="main-content project-2">
-                    <a href="https://aze-couture.com/" target="_blank">
+                    <a href="https://aze-couture.com/" target="_blank" class="img-link">
                         <div class="project-img-container">
                             <img
                                 src="@/assets/img/projects/azecouture.png"
@@ -191,13 +195,65 @@ main {
 
     .link-icon {
         position: absolute;
-        color: $font-color-secondary;
+        z-index: 2;
+        color: $font-color-primary;
         bottom: 20px;
         right: 20px;
 
         &:hover {
             color: $secondary-color;
         }
+    }
+}
+
+@media screen and(max-width: 1200px) {
+    .img-link {
+        display: none;
+    }
+
+    .project-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) !important;
+
+        .project-title,
+        li {
+            text-shadow: 0 0 1px #fff;
+        }
+
+        .project-description {
+            color: $font-color-primary !important;
+        }
+    }
+
+    .main-content {
+        box-shadow: 0 0 10px rgba(0, 220, 130, 0.6) !important;
+
+        &::before {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(10, 40, 40, 0.6);
+            backdrop-filter: blur(6px) saturate(100%);
+        }
+    }
+
+    .project-1 {
+        background-image: url("@/assets/img/projects/pournoobs.png") !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+
+    .project-2 {
+        background-image: url("@/assets/img/projects/azecouture.png") !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
     }
 }
 </style>

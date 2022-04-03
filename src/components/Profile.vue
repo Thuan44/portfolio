@@ -144,4 +144,22 @@ main {
         opacity: 0.8;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .photo-container {
+        transform: scale(0.7);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .profile-title {
+        left: -20px !important;
+    }
+}
 </style>

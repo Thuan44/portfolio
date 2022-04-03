@@ -12,7 +12,7 @@
                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                 <button class="nav-link" id="nav-caav-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-caav" type="button" role="tab" aria-controls="nav-caav"
-                                    aria-selected="false">Crédit Agricole AV</button>
+                                    aria-selected="false">Crédit Agricole <span class="av">AV</span></button>
                                 <button class="nav-link" id="nav-c2d2-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-c2d2" type="button" role="tab" aria-controls="nav-c2d2"
                                     aria-selected="false">C2D2</button>
@@ -261,6 +261,32 @@
             font-size: 0.9rem;
             margin-right: 10px;
         }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .nav-link {
+        height: 64px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .experiences-title {
+        width: 320px;
+        right: 5px;
+    }
+
+    .rectangle-top {
+        right: 30px;
+        width: 40%;
+    }
+    .rectangle-bottom {
+        left: 30px;
+        width: 50%;
+    }
+
+    .av {
+        display: none;
     }
 }
 </style>

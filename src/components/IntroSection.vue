@@ -95,4 +95,22 @@ main {
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .rectangle {
+        width: 100% !important;
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .rectangle {
+        height: 500px;
+        top: 40px;
+    }
+
+    .main-content {
+        margin-top: 40px;
+    }
+}
 </style>

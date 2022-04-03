@@ -1,13 +1,13 @@
 <template>
     <nav>
-        <div class="logo-menu d-flex justify-content-between">
+        <div class="logo-menu d-flex justify-content-between align-items-center">
             <a href="#">
                 <div class="logo-container ms-4">
-                    <img src="@/assets/ctd_logo_transparent.png" class="w-100" />
+                    <img src="@/assets/img/ctd_logo_transparent.png" class="w-100" />
                 </div>
             </a>
             <div>
-                <ul class="list-unstyled menu">
+                <ul class="list-unstyled menu mb-0">
                     <li>
                         <a href="#profile" class="link-item">Profil</a>
                     </li>
@@ -15,7 +15,7 @@
                         <a href="#experiences" class="link-item">Expériences</a>
                     </li>
                     <li>
-                        <a href="#" class="link-item">Projets</a>
+                        <a href="#projects" class="link-item">Projets</a>
                     </li>
                     <li>
                         <a href="#" class="link-item">Contact</a>

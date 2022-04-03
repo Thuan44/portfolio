@@ -34,7 +34,7 @@
 }
 
 .container {
-    padding-top: 20px;
+    padding-top: 5%;
 }
 
 main {

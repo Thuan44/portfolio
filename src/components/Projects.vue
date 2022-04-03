@@ -1,0 +1,202 @@
+<template>
+    <section id="projects">
+        <div class="container">
+            <main>
+                <h2 class="projects-title">Mes projets</h2>
+
+                <!-- Project 1 -->
+                <div class="main-content project-1">
+                    <a href="http://pournoobs-frontend.herokuapp.com" target="_blank">
+                        <div class="project-img-container">
+                            <img
+                                src="@/assets/img/projects/pournoobs.png"
+                                class="w-100 project-img project-img-1"
+                            />
+                        </div>
+                    </a>
+                    <div class="project-content">
+                        <h3 class="project-title">
+                            <span class="whity">Pournoobs</span>
+                        </h3>
+                        <div class="project-description">
+                            <p class="project-1-para-1">
+                                Une plateforme d'apprentissage en ligne spécialisée dans l'univers de l'e-sport.
+                                Cette application web permet à n'importe quel "noob" de monter en compétences sur le gaming, le livestreaming et d'autres domaines et ce, en toute autonomie.
+                            </p>
+                            <p
+                                class="project-1-para-2 mb-0"
+                            >La charte graphique reprend celle d'un célèbre site et démontre que l'on peut faire preuve à la fois d'humour et de sérieux en même temps.</p>
+                        </div>
+                        <ul class="technos-list-1 list-unstyled d-flex gap-5 mt-3">
+                            <li class="whity">Vue.js</li>
+                            <li class="whity">Bootstrap</li>
+                            <li class="whity">Laravel</li>
+                            <li class="whity">Heroku</li>
+                        </ul>
+                    </div>
+                    <a href="http://pournoobs-frontend.herokuapp.com" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square link-icon"></i>
+                    </a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="main-content project-2">
+                    <a href="https://aze-couture.com/" target="_blank">
+                        <div class="project-img-container">
+                            <img
+                                src="@/assets/img/projects/azecouture.png"
+                                class="w-100 project-img project-img-1"
+                            />
+                        </div>
+                    </a>
+                    <div class="project-content">
+                        <h3 class="project-title">
+                            <span class="whity">Aze Couture</span>
+                        </h3>
+                        <div class="project-description">
+                            <p
+                                class="project-1-para-1"
+                            >Site e-commerce pour une marque de streetwear à Nantes. Désireuse d'étendre son activité et d'obtenir un canal de vente supplémentaire, la créatrice m'a contacté afin que nous collaborions et lui offrions un outil personnalisé et à l'image de son entreprise.</p>
+                            <p
+                                class="project-1-para-2 mb-0"
+                            >Le thème Wordpress utilisé est "Astra" et les pages ont été construites à l'aide d'Elementor Pro.</p>
+                        </div>
+                        <ul class="technos-list-2 list-unstyled d-flex gap-5 mt-3">
+                            <li class="whity">Wordpress</li>
+                            <li class="whity">Woocommerce</li>
+                            <li class="whity">Stripe</li>
+                        </ul>
+                    </div>
+                    <a href="https://aze-couture.com/" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square link-icon"></i>
+                    </a>
+                </div>
+            </main>
+        </div>
+    </section>
+</template>
+
+<script setup>
+
+</script>
+
+<style lang="scss" scoped>
+.container {
+    padding: 200px 0 250px;
+}
+
+main {
+    text-align: left;
+    position: relative;
+
+    .projects-title {
+        color: $secondary-color;
+        font-size: 2.2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .main-content {
+        position: relative;
+        background: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(5px) saturate(180%);
+        width: 80%;
+        min-height: 500px;
+        box-shadow: 0 0 10px rgba(0, 220, 130, 0.1);
+        color: $font-color-secondary;
+        padding: 80px 50px 50px;
+        margin: 0 auto 70px;
+        display: flex;
+
+        .project-img-container {
+            width: 60%;
+            max-width: 700px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+            filter: saturate(80%);
+
+            &:hover {
+                filter: saturate(100%);
+            }
+
+            &::before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 220, 130, 0.3);
+                position: absolute;
+                top: 0;
+                left: 0;
+                transition: 0.2s ease-in-out;
+            }
+
+            &:hover::before {
+                background-color: rgba(0, 220, 130, 0);
+            }
+
+            .project-img {
+                object-fit: cover;
+            }
+        }
+
+        .project-content {
+            max-width: 550px;
+
+            .project-title {
+                font-weight: bold;
+            }
+        }
+
+        .project-description {
+            background: rgba(10, 40, 40, 0.6);
+            backdrop-filter: blur(10px) saturate(100%);
+            color: $font-color-secondary;
+            padding: 30px;
+        }
+
+        .technos-list-1 {
+            justify-content: end;
+        }
+
+        .technos-list-2 {
+            justify-content: start;
+        }
+    }
+
+    .project-1 {
+        text-align: right;
+        justify-content: end;
+
+        .project-img-container {
+            left: -80px;
+        }
+    }
+    .project-2 {
+        text-align: left;
+        justify-content: start;
+
+        .project-img-container {
+            right: -80px;
+        }
+    }
+
+    .whity {
+        color: $font-color-primary;
+    }
+
+    .link-icon {
+        position: absolute;
+        color: $font-color-secondary;
+        bottom: 20px;
+        right: 20px;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+</style>

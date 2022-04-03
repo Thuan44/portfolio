@@ -19,13 +19,17 @@
                         je m'épanouie pleinement en tant que
                         <span
                             class="whity"
-                        >Développeur Fullstack</span>.
+                        >Développeur Fullstack</span> et suis désormais détenteur des titres professionnels
+                        <span
+                            class="whity"
+                        >Développeur Web & Mobile</span> ainsi que
+                        <span class="whity">Concepteur Développeur d'Applications</span>.
                     </p>
                     <p class="profile-description para-3">
-                        Mon expérience dans la communication digitale représente un atout primordiale dans la
+                        Mon expérience passée dans la communication digitale représente un atout primordiale dans la
                         compréhension des enjeux auxquels peuvent faire face une entreprise dans la conception de ses applications.
                     </p>
-                    <p class="profile-description para-3">
+                    <p class="profile-description para-3 mb-4">
                         Voici les technologies avec lesquelles j'ai pu travailler
                         récemment :
                     </p>
@@ -65,7 +69,7 @@
 
 <style lang="scss" scoped>
 .container {
-    padding: 100px 0 250px;
+    padding: 200px 0 250px;
 }
 
 main {
@@ -80,7 +84,7 @@ main {
     width: 80%;
     box-shadow: 0 0 10px rgba(0, 220, 130, 0.1);
     color: $font-color-secondary;
-    padding: 80px 50px 50px;
+    padding: 80px 50px 40px;
     margin: 0 auto;
 
     .profile-title {

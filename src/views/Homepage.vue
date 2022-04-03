@@ -122,6 +122,7 @@
   <IntroSection></IntroSection>
   <Profile></Profile>
   <Experiences></Experiences>
+  <Projects></Projects>
 </template>
 
 <script setup>
@@ -129,6 +130,7 @@ import TheNavbar from '../components/TheNavbar.vue';
 import IntroSection from '../components/IntroSection.vue';
 import Profile from '../components/Profile.vue';
 import Experiences from '../components/Experiences.vue';
+import Projects from '../components/Projects.vue';
 </script>
 
 

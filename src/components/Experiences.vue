@@ -29,7 +29,7 @@
                         <div class="tab-content" id="nav-tabContent">
                             <div class="tab-pane fade show active" id="nav-caav" role="tabpanel"
                                 aria-labelledby="nav-caav-tab">
-                                <h3 class="ca-title">
+                                <h3 class="company-name ca-title">
                                     <span class="whity">Développeur Fullstack</span>
                                 </h3>
                                 <p class="ca-description para-1">
@@ -61,7 +61,7 @@
                                 </p>
                             </div>
                             <div class="tab-pane fade" id="nav-c2d2" role="tabpanel" aria-labelledby="nav-c2d2-tab">
-                                <h3 class="c2d2-title">
+                                <h3 class="company-name c2d2-title">
                                     <span class="whity">Développeur Front-end</span>
                                 </h3>
                                 <p class="c2d2-description para-1">
@@ -92,7 +92,7 @@
                                 </p>
                             </div>
                             <div class="tab-pane fade" id="nav-mm" role="tabpanel" aria-labelledby="nav-mm-tab">
-                                <h3 class="mm-title">
+                                <h3 class="company-name mm-title">
                                     <span class="whity">Community Manager</span>
                                 </h3>
                                 <p class="mm-description para-1">
@@ -123,7 +123,7 @@
                                 </p>
                             </div>
                             <div class="tab-pane fade" id="nav-cnh" role="tabpanel" aria-labelledby="nav-cnh-tab">
-                                <h3 class="cnh-title">
+                                <h3 class="company-name cnh-title">
                                     <span class="whity">Assistant Communication</span>
                                 </h3>
                                 <p class="cnh-description para-1">
@@ -163,7 +163,7 @@
 
 <style lang="scss" scoped>
 .container {
-    padding: 100px 0 250px;
+    padding: 200px 0 250px;
 }
 
 .rectangle {
@@ -237,12 +237,16 @@
     }
 
     .tab-content {
-        min-height: 450px;
+        min-height: 440px;
         background: rgba(10, 40, 40, 0.6);
-        backdrop-filter: blur(5px) saturate(100%);
+        backdrop-filter: blur(10px) saturate(100%);
         color: $font-color-secondary;
         text-align: left;
         padding: 50px;
+
+        .company-name {
+            font-weight: bold;
+        }
 
         li {
             margin-bottom: 10px;

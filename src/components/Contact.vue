@@ -4,7 +4,7 @@
             <main>
                 <div class="main-content">
                     <h2 class="contact-title">Dites bonjour !</h2>
-                    <p class="contact-description text-center">
+                    <p class="contact-description text-center mb-0">
                         Je suis toujours à l'écoute de nouvelles opportunités.
                         <br />Si mon profil vous intéresse ou si vous souhaitez simplément échanger, je reste disponible par mail.
                     </p>
@@ -64,7 +64,11 @@ main {
 
 @media screen and (max-width: 992px) {
     .contact-title {
+        text-align: center;
         width: 300px;
+    }
+    .main-content {
+        padding: 40px 20px 30px;
     }
 }
 </style>

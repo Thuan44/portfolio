@@ -23,7 +23,7 @@
                     <li>
                         <a
                             class="btn cv-btn"
-                            href="@/assets/CV_Cong-Thuan_DO_FS.pdf"
+                            href="/CV_Cong-Thuan_DO_FS.pdf"
                             download
                         >Télécharger CV</a>
                     </li>
@@ -134,14 +134,29 @@ nav {
 
 @media screen and (max-width: 768px) {
     .navbar-collapse {
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .menu {
         display: flex !important;
         flex-direction: column;
-        align-items: end !important;
+        align-items: center !important;
         justify-content: end;
         justify-items: end;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logo-menu {
+        padding: 0;
+    }
+    .logo-container {
+        margin-left: 0 !important;
+        width: 60px !important;
+    }
+
+    .navbar-toggler {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 }
 </style>

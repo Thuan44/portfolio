@@ -10,7 +10,7 @@
                     <div class="main-content position-relative">
                         <nav>
                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                <button class="nav-link" id="nav-caav-tab" data-bs-toggle="tab"
+                                <button class="nav-link active" id="nav-caav-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-caav" type="button" role="tab" aria-controls="nav-caav"
                                     aria-selected="false">Crédit Agricole <span class="av">AV</span></button>
                                 <button class="nav-link" id="nav-c2d2-tab" data-bs-toggle="tab"
@@ -21,9 +21,9 @@
                                     Malakoff
                                     Médéric
                                 </button>
-                                <button class="nav-link active" id="nav-cnh-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-cnh" type="button" role="tab" aria-controls="nav-cnh"
-                                    aria-selected="true">CNH Industrial</button>
+                                <button class="nav-link" id="nav-cnh-tab" data-bs-toggle="tab" data-bs-target="#nav-cnh"
+                                    type="button" role="tab" aria-controls="nav-cnh" aria-selected="true">CNH
+                                    Industrial</button>
                             </div>
                         </nav>
                         <div class="tab-content" id="nav-tabContent">
@@ -54,7 +54,7 @@
                                     <li>
                                         <i class="fa-brands fa-connectdevelop"></i> Tests unitaires
                                     </li>
-                                    <li>
+                                    <li class="mb-0">
                                         <i class="fa-brands fa-connectdevelop"></i> Gestion de bases de données (MySQL)
                                     </li>
                                 </ul>
@@ -84,7 +84,7 @@
                                         <i class="fa-brands fa-connectdevelop"></i> Développement côté client de
                                         l'application web (HTML, CSS, Sass, Bootstrap, Javascript, jQuery)
                                     </li>
-                                    <li>
+                                    <li class="mb-0">
                                         <i class="fa-brands fa-connectdevelop"></i> Travail en méthode Agile et
                                         pair-programming (Jira, Confluence, GIT)
                                     </li>
@@ -115,7 +115,7 @@
                                         <i class="fa-brands fa-connectdevelop"></i> Gestion du Social-CRM (relation
                                         client sur les réseaux sociaux)
                                     </li>
-                                    <li>
+                                    <li class="mb-0">
                                         <i class="fa-brands fa-connectdevelop"></i> Analyse du trafic et reporting
                                         (Google Analytics)
                                     </li>
@@ -142,7 +142,7 @@
                                         <i class="fa-brands fa-connectdevelop"></i> Accompagnement des équipes Marketing
                                         Opérationnel sur les campagnes de communication
                                     </li>
-                                    <li>
+                                    <li class="mb-0">
                                         <i class="fa-brands fa-connectdevelop"></i> Adaptations web et vidéo (bannières
                                         de site, posts Facebook, teasers vidéo)
                                     </li>
@@ -238,7 +238,7 @@
 
     .tab-content {
         min-height: 440px;
-        background: rgba(10, 40, 40, 0.6);
+        background-color: rgba(10, 40, 40, 0.6);
         backdrop-filter: blur(10px) saturate(100%);
         color: $font-color-secondary;
         text-align: left;
@@ -248,8 +248,12 @@
             font-weight: bold;
         }
 
+        ul {
+            margin-bottom: 0 !important;
+        }
+
         li {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
 
         .whity {
@@ -287,6 +291,44 @@
 
     .av {
         display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .rectangle-top {
+        top: 140px;
+    }
+
+    .rectangle-bottom {
+        top: 290px;
+    }
+
+    .experiences-title {
+        position: absolute;
+        top: -160px;
+        right: 5px;
+        color: $secondary-color;
+        font-size: 2.2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .main-content {
+        padding-top: 50px;
+    }
+
+    .nav-link {
+        padding: 5px;
+        font-size: 0.9rem;
+    }
+
+    .tab-content {
+        padding: 40px 20px 30px !important;
+        background-color: rgba(10, 40, 40, 0.9) !important;
+
+        li {
+            margin-bottom: 20px !important;
+        }
     }
 }
 </style>

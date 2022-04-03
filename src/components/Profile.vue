@@ -29,7 +29,7 @@
                         Mon expérience passée dans la communication digitale représente un atout primordiale dans la
                         compréhension des enjeux auxquels peuvent faire face une entreprise dans la conception de ses applications.
                     </p>
-                    <p class="profile-description para-3 mb-4">
+                    <p class="profile-description mb-4">
                         Voici les technologies avec lesquelles j'ai pu travailler
                         récemment :
                     </p>
@@ -158,8 +158,20 @@ main {
 }
 
 @media screen and (max-width: 576px) {
+    .main-content {
+        padding: 40px 20px 30px;
+    }
+
     .profile-title {
         left: -20px !important;
+    }
+
+    .para-3 {
+        display: none;
+    }
+
+    .para-4 {
+        gap: 10px !important;
     }
 }
 </style>

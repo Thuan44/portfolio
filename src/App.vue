@@ -36,4 +36,10 @@ p,
 a:not(.link-item) {
   font-family: "DM Sans", sans-serif;
 }
+
+@media screen and (max-width: 576px) {
+  h2 {
+    font-size: 1.8rem !important;
+  }
+}
 </style>

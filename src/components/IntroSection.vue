@@ -8,7 +8,7 @@
                     <h1 class="main-title">
                         Je suis Cong-Thuan Do.
                         <br />
-                        <span>Je suis Développeur Fullstack.</span>
+                        <span>Développeur Fullstack.</span>
                     </h1>
                     <p class="subtitle">
                         <span>J'aime concevoir et construire</span>
@@ -68,7 +68,7 @@ main {
 
     h1 {
         color: $font-color-primary;
-        font-size: clamp(35px, 5vw, 70px);
+        font-size: clamp(26px, 5vw, 70px);
         font-weight: 800;
         font-family: "Exo", sans-serif;
         span {
@@ -104,8 +104,12 @@ main {
 }
 
 @media screen and (max-width: 576px) {
+    main {
+        padding: 20px;
+    }
+
     .rectangle {
-        height: 500px;
+        height: 420px;
         top: 40px;
     }
 

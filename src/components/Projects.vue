@@ -31,9 +31,9 @@
                                 class="project-1-para-2 mb-0"
                             >La charte graphique reprend celle d'un célèbre site et démontre que l'on peut faire preuve à la fois d'humour et de sérieux en même temps.</p>
                         </div>
-                        <ul class="technos-list-1 list-unstyled d-flex gap-5 mt-3">
+                        <ul class="techno-list techno-list-1 list-unstyled d-flex gap-5 mt-3">
                             <li class="whity">Vue.js</li>
-                            <li class="whity">Bootstrap</li>
+                            <li class="whity bootstrap">Bootstrap</li>
                             <li class="whity">Laravel</li>
                             <li class="whity">Heroku</li>
                         </ul>
@@ -65,7 +65,7 @@
                                 class="project-1-para-2 mb-0"
                             >Le thème Wordpress utilisé est "Astra" et les pages ont été construites à l'aide d'Elementor Pro.</p>
                         </div>
-                        <ul class="technos-list-2 list-unstyled d-flex gap-5 mt-3">
+                        <ul class="techno-list techno-list-2 list-unstyled d-flex gap-5 mt-3">
                             <li class="whity">Wordpress</li>
                             <li class="whity">Woocommerce</li>
                             <li class="whity">Stripe</li>
@@ -106,6 +106,7 @@ main {
         position: relative;
         background: rgba(0, 0, 0, 0.3);
         backdrop-filter: blur(5px) saturate(180%);
+        -webkit-backdrop-filter: blur(5px) saturate(180%);
         width: 80%;
         min-height: 500px;
         box-shadow: 0 0 10px rgba(0, 220, 130, 0.1);
@@ -159,15 +160,16 @@ main {
         .project-description {
             background: rgba(10, 40, 40, 0.6);
             backdrop-filter: blur(10px) saturate(100%);
+            -webkit-backdrop-filter: blur(10px) saturate(100%);
             color: $font-color-secondary;
             padding: 30px;
         }
 
-        .technos-list-1 {
+        .techno-list-1 {
             justify-content: end;
         }
 
-        .technos-list-2 {
+        .techno-list-2 {
             justify-content: start;
         }
     }
@@ -237,8 +239,9 @@ main {
             position: absolute;
             top: 0;
             left: 0;
-            background: rgba(10, 40, 40, 0.6);
-            backdrop-filter: blur(6px) saturate(100%);
+            background: rgba(10, 40, 40, 0.4);
+            backdrop-filter: blur(1px) saturate(120%);
+            -webkit-backdrop-filter: blur(1px) saturate(120%);
         }
     }
 
@@ -254,6 +257,29 @@ main {
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-position: center !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .project-content {
+        width: 340px !important;
+        text-align: center;
+    }
+
+    .project-title {
+        text-align: center !important;
+        text-shadow: 0 0 1px rgba(0, 220, 130, 0.2) !important;
+    }
+
+    .techno-list {
+        justify-content: center !important;
+        gap: 10px !important;
+        font-size: 0.9rem;
+    }
+
+    .link-icon {
+        right: 10px !important;
+        bottom: 10px !important;
     }
 }
 </style>

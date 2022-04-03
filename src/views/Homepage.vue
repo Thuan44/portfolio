@@ -123,6 +123,8 @@
   <Profile></Profile>
   <Experiences></Experiences>
   <Projects></Projects>
+  <Contact></Contact>
+  <Footer></Footer>
 </template>
 
 <script setup>
@@ -131,6 +133,8 @@ import IntroSection from '../components/IntroSection.vue';
 import Profile from '../components/Profile.vue';
 import Experiences from '../components/Experiences.vue';
 import Projects from '../components/Projects.vue';
+import Contact from '../components/Contact.vue';
+import Footer from '../components/Footer.vue';
 </script>
 
 

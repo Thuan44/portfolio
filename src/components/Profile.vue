@@ -124,6 +124,10 @@ main {
         }
     }
 
+    .profile-description {
+        font-family: "DM Sans", sans-serif;
+    }
+
     .whity,
     .para-4 {
         color: $font-color-primary;

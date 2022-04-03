@@ -1,5 +1,5 @@
 <template>
-    <nav>
+    <nav id="navbar">
         <div class="logo-menu d-flex justify-content-between align-items-center">
             <a href="#">
                 <div class="logo-container ms-4">
@@ -18,7 +18,7 @@
                         <a href="#projects" class="link-item">Projets</a>
                     </li>
                     <li>
-                        <a href="#" class="link-item">Contact</a>
+                        <a href="#contact" class="link-item">Contact</a>
                     </li>
                     <li>
                         <a

@@ -82,7 +82,7 @@
 
 <style lang="scss" scoped>
 .container {
-    padding: 200px 0 250px;
+    padding: 200px 0 200px;
 }
 
 main {
@@ -145,6 +145,7 @@ main {
 
         .project-content {
             max-width: 550px;
+            font-family: "DM Sans", sans-serif;
 
             .project-title {
                 font-weight: bold;

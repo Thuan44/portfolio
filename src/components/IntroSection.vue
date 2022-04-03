@@ -1,6 +1,6 @@
   <template>
     <section id="intro_section">
-        <div class="container">
+        <div class="container position-relative">
             <main>
                 <div class="rectangle"></div>
                 <div class="main-content">

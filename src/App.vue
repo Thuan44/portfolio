@@ -25,8 +25,15 @@ import Homepage from './views/Homepage.vue'
 body {
   min-height: 100vh;
   background-color: $primary-color;
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans", sans-serif !important;
   font-weight: 500;
   color: $font-color-secondary;
+}
+
+h2,
+h3,
+p,
+a:not(.link-item) {
+  font-family: "DM Sans", sans-serif;
 }
 </style>

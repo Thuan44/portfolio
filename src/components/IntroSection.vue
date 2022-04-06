@@ -8,7 +8,7 @@
                     <h1 class="main-title">
                         Je suis Cong-Thuan Do.
                         <br />
-                        <span>Développeur Fullstack.</span>
+                        <span>Je suis Développeur Fullstack.</span>
                     </h1>
                     <p class="subtitle">
                         <span>J'aime concevoir et construire</span>

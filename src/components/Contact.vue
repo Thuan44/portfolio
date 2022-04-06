@@ -6,7 +6,7 @@
                     <h2 class="contact-title">Dites bonjour !</h2>
                     <p class="contact-description text-center mb-0">
                         Je suis toujours à l'écoute de nouvelles opportunités.
-                        <br />Si mon profil vous intéresse ou si vous souhaitez simplément échanger, je reste disponible par mail.
+                        <br />Si mon profil vous intéresse ou si vous souhaitez simplement échanger, je reste disponible par mail.
                     </p>
                     <p class="email">congthuan.do@gmail.com</p>
                 </div>

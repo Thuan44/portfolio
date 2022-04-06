@@ -7,7 +7,7 @@
                 <!-- Project 1 -->
                 <div class="main-content project-1">
                     <a
-                        href="http://pournoobs-frontend.herokuapp.com"
+                        href="https://pournoobs-frontend.herokuapp.com"
                         target="_blank"
                         class="img-link"
                     >
@@ -38,7 +38,7 @@
                             <li class="whity">Heroku</li>
                         </ul>
                     </div>
-                    <a href="http://pournoobs-frontend.herokuapp.com" target="_blank">
+                    <a href="https://pournoobs-frontend.herokuapp.com" target="_blank">
                         <i class="fa-solid fa-arrow-up-right-from-square link-icon"></i>
                     </a>
                 </div>

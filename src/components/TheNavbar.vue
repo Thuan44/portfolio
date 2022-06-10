@@ -23,7 +23,7 @@
                     <li>
                         <a
                             class="btn cv-btn"
-                            href="/CV_Cong-Thuan_DO_FS.pdf"
+                            href="/CV_Cong-Thuan_DO_FS_DEV.pdf"
                             download
                         >Télécharger CV</a>
                     </li>

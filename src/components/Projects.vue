@@ -45,22 +45,22 @@
 
                 <!-- Project 2 -->
                 <div class="main-content project-2">
-                    <a href="https://aze-couture.com/" target="_blank" class="img-link">
+                    <a href="https://nea-lissage-pro.com/" target="_blank" class="img-link">
                         <div class="project-img-container">
                             <img
-                                src="@/assets/img/projects/azecouture.png"
+                                src="@/assets/img/projects/nea_lissage_pro.png"
                                 class="w-100 project-img project-img-1"
                             />
                         </div>
                     </a>
                     <div class="project-content">
                         <h3 class="project-title">
-                            <span class="whity">Aze Couture</span>
+                            <span class="whity">Nea Lissage Pro</span>
                         </h3>
                         <div class="project-description">
                             <p
                                 class="project-1-para-1"
-                            >Site e-commerce pour une marque de streetwear à Nantes. Désireuse d'étendre son activité et d'obtenir un canal de vente supplémentaire, la créatrice m'a contacté afin que nous collaborions et lui offrions un outil personnalisé et à l'image de son entreprise.</p>
+                            >Site e-commerce pour une marque de produits de lissage brésilien. Désireuse d'étendre son activité et d'obtenir un canal de vente supplémentaire, la créatrice m'a contacté afin que nous collaborions et lui offrions un outil personnalisé et à l'image de son entreprise.</p>
                             <p
                                 class="project-1-para-2 mb-0"
                             >Le thème Wordpress utilisé est "Astra" et les pages ont été construites à l'aide d'Elementor Pro.</p>
@@ -71,7 +71,7 @@
                             <li class="whity">Stripe</li>
                         </ul>
                     </div>
-                    <a href="https://aze-couture.com/" target="_blank">
+                    <a href="https://nea-lissage-pro.com/" target="_blank">
                         <i class="fa-solid fa-arrow-up-right-from-square link-icon"></i>
                     </a>
                 </div>
@@ -253,7 +253,7 @@ main {
     }
 
     .project-2 {
-        background-image: url("@/assets/img/projects/azecouture.png") !important;
+        background-image: url("@/assets/img/projects/nea_lissage_pro.png") !important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-position: center !important;

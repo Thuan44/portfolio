@@ -63,8 +63,7 @@
                                 </ul>
                                 </p>
                             </div>
-                            <div class="tab-pane fade show active" id="nav-caav" role="tabpanel"
-                                aria-labelledby="nav-caav-tab">
+                            <div class="tab-pane fade show" id="nav-caav" role="tabpanel" aria-labelledby="nav-caav-tab">
                                 <h3 class="company-name ca-title">
                                     <span class="whity">Développeur Full-Stack</span>
                                 </h3>

@@ -206,6 +206,7 @@ main {
     }
 
     .project-content {
+        width: 80%;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -238,14 +239,14 @@ main {
     }
 
     .project-1 {
-        background-image: url("@/assets/img/projects/pournoobs.png") !important;
+        background-image: url("@/assets/img/projects/alifbaa.png") !important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-position: center !important;
     }
 
     .project-2 {
-        background-image: url("@/assets/img/projects/nea_lissage_pro.png") !important;
+        background-image: url("@/assets/img/projects/resumind.jpg") !important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-position: center !important;

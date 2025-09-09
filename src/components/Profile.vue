@@ -8,26 +8,27 @@
                         <img src="@/assets/img/profile_pic_transparent.png" class="photo w-100" />
                     </div>
                     <p class="profile-description para-1">
-                        Bonjour et bienvenue sur mon site personnel ! Je m'appelle
-                        <span
-                            class="whity"
-                        >Cong-Thuan Do</span>.
+                        Bonjour et bienvenue !
+                        <br />
+                        <br />
+                        Je m'appelle
+                        <span class="whity">Cong-Thuan Do</span> et je suis Développeur Front-End basé en Île-de-France.
                         <br />
                         <br />Titulaire d'un
                         <span class="whity">Master en Stratégie Digitale</span>, j'ai décidé de changer de voie pour
                         me spécialiser dans le développement web. Depuis l'écriture de mon premier "Hello World",
                         je m'épanouie pleinement en tant que
-                        <span
-                            class="whity"
-                        >Développeur Fullstack</span> et suis désormais détenteur des titres professionnels
-                        <span
-                            class="whity"
-                        >Développeur Web & Mobile</span> ainsi que
+                        <span class="whity">Développeur Front-End</span> et suis désormais détenteur des titres
+                        professionnels
+                        <span class="whity">Développeur Web & Mobile</span> ainsi que
                         <span class="whity">Concepteur Développeur d'Applications</span>.
                     </p>
                     <p class="profile-description para-3">
-                        Mon expérience passée dans la communication digitale représente un atout primordiale dans la
-                        compréhension des enjeux auxquels peuvent faire face une entreprise dans la conception de ses applications.
+                        Mon <span class="whity">expérience multi-projets en agence web</span>, couplée à une expérience
+                        passée en <span class="whity">communication digitale</span>, me permet d’avoir une vision globale
+                        des besoins clients et des enjeux métiers. Cela représente
+                        un véritable atout pour concevoir des interfaces à la fois efficaces, intuitives et alignées avec
+                        les objectifs des entreprises.
                     </p>
                     <p class="profile-description mb-4">
                         Voici les technologies avec lesquelles j'ai pu travailler
@@ -36,18 +37,18 @@
                     <div class="profile-description para-4 d-flex">
                         <ul class="list-unstyled">
                             <li>
-                                <i class="fa-solid fa-terminal"></i> Javascript (ES6+)
+                                <i class="fa-solid fa-terminal"></i> Vue.js, Nuxt 2/3
                             </li>
                             <li>
-                                <i class="fa-solid fa-terminal"></i> Vue.js
+                                <i class="fa-solid fa-terminal"></i> React
                             </li>
                             <li>
-                                <i class="fa-solid fa-terminal"></i> Wordpress
+                                <i class="fa-solid fa-terminal"></i> Tailwind CSS
                             </li>
                         </ul>
                         <ul class="list-unstyled">
                             <li>
-                                <i class="fa-solid fa-terminal"></i> PHP
+                                <i class="fa-solid fa-terminal"></i> Typescript
                             </li>
                             <li>
                                 <i class="fa-solid fa-terminal"></i> Laravel
@@ -126,6 +127,11 @@ main {
 
     .profile-description {
         font-family: "DM Sans", sans-serif;
+        flex-direction: column;
+
+        @media screen and (min-width: 640px) {
+            flex-direction: row;
+        }
     }
 
     .whity,
@@ -134,7 +140,11 @@ main {
     }
 
     .para-4 {
-        gap: 50px;
+        gap: 0 !important;
+
+        @media screen and (min-width: 640px) {
+            gap: 50px !important;
+        }
     }
 
     .fa-terminal {

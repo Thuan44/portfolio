@@ -1,4 +1,4 @@
-  <template>
+<template>
     <section id="intro_section">
         <div class="container position-relative">
             <main>
@@ -8,7 +8,7 @@
                     <h1 class="main-title">
                         Je suis Cong-Thuan Do.
                         <br />
-                        <span>Je suis Développeur Fullstack.</span>
+                        <span>Je suis Développeur Front-End.</span>
                     </h1>
                     <p class="subtitle">
                         <span>J'aime concevoir et construire</span>
@@ -71,6 +71,7 @@ main {
         font-size: clamp(26px, 5vw, 70px);
         font-weight: 800;
         font-family: "Exo", sans-serif;
+
         span {
             color: $font-color-secondary;
         }
@@ -89,6 +90,7 @@ main {
         border-radius: 0;
         padding: 10px 20px;
         margin-top: 40px;
+
         &:hover {
             filter: brightness(110%);
             background-color: rgba(62, 96, 70, 0.3);

@@ -7,7 +7,7 @@
                         <i class="fa-solid fa-up-long"></i>
                     </a>
                     <p class="signature">
-                        <small>&copy; Cong-Thuan Do - 2022</small>
+                        <small>&copy; 2025 Cong-Thuan Do — Tous droits réservés.</small>
                     </p>
                 </div>
             </main>
@@ -35,6 +35,7 @@
         border-radius: 0;
         padding: 10px 20px;
         margin-top: 40px;
+
         &:hover {
             filter: brightness(110%);
             background-color: rgba(62, 96, 70, 0.3);

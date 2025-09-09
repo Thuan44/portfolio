@@ -10,12 +10,12 @@
                     <div class="main-content position-relative">
                         <nav>
                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                <button class="nav-link active" id="nav-caav-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-caav" type="button" role="tab" aria-controls="nav-caav"
-                                    aria-selected="false">Crédit Agricole <span class="av">AV</span></button>
-                                <button class="nav-link" id="nav-c2d2-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-c2d2" type="button" role="tab" aria-controls="nav-c2d2"
-                                    aria-selected="false">C2D2</button>
+                                <button class="nav-link active" id="nav-gm-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-gm" type="button" role="tab" aria-controls="nav-gm"
+                                    aria-selected="false">Gingerminds </button>
+                                <button class="nav-link" id="nav-caav-tab" data-bs-toggle="tab" data-bs-target="#nav-caav"
+                                    type="button" role="tab" aria-controls="nav-caav" aria-selected="false">Crédit Agricole
+                                    <span class="av">AV</span></button>
                                 <button class="nav-link" id="nav-mm-tab" data-bs-toggle="tab" data-bs-target="#nav-mm"
                                     type="button" role="tab" aria-controls="nav-mm" aria-selected="false">
                                     Malakoff
@@ -27,10 +27,46 @@
                             </div>
                         </nav>
                         <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-gm" role="tabpanel" aria-labelledby="nav-gm-tab">
+                                <h3 class="company-name ca-title">
+                                    <span class="whity">Développeur Front-End</span>
+                                </h3>
+                                <p class="gm-description para-1">
+                                    Octobre 2022 - Aujourd'hui
+                                    <hr style="opacity: .01;" class="mb-4">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <i class="fa-brands fa-connectdevelop"></i> Développement et maintenance des
+                                        interfaces utilisateur, sites e-commerce et outils métiers axés industrie et
+                                        bâtiment
+                                    </li>
+                                    <li>
+                                        <i class="fa-brands fa-connectdevelop"></i> Migration de sites Nuxt 2 à Nuxt 3
+                                    </li>
+                                    <li>
+                                        <i class="fa-brands fa-connectdevelop"></i> Contrôle de la qualité des applicatifs
+                                        (performances, accessibilité, référencement, sécurité, design system) et revue de
+                                        code
+                                    </li>
+                                    <li>
+                                        <i class="fa-brands fa-connectdevelop"></i> Mise en place des solutions de tracking
+                                        (Matomo, Google Analytics)
+                                    </li>
+                                    <li>
+                                        <i class="fa-brands fa-connectdevelop"></i> Accompagnement des développeurs juniors
+                                        (montée en compétence et bonnes pratiques)
+                                    </li>
+                                    <li class="mb-0">
+                                        <i class="fa-brands fa-connectdevelop"></i> Partage de veille
+                                        technologique/intelligence artificielle
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
                             <div class="tab-pane fade show active" id="nav-caav" role="tabpanel"
                                 aria-labelledby="nav-caav-tab">
                                 <h3 class="company-name ca-title">
-                                    <span class="whity">Développeur Fullstack</span>
+                                    <span class="whity">Développeur Full-Stack</span>
                                 </h3>
                                 <p class="ca-description para-1">
                                     Septembre 2021 - Aujourd'hui
@@ -56,37 +92,6 @@
                                     </li>
                                     <li class="mb-0">
                                         <i class="fa-brands fa-connectdevelop"></i> Gestion de bases de données (MySQL)
-                                    </li>
-                                </ul>
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="nav-c2d2" role="tabpanel" aria-labelledby="nav-c2d2-tab">
-                                <h3 class="company-name c2d2-title">
-                                    <span class="whity">Développeur Front-end</span>
-                                </h3>
-                                <p class="c2d2-description para-1">
-                                    Avril 2021 - Mai 2021
-                                    <hr style="opacity: .01;" class="mb-4">
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <i class="fa-brands fa-connectdevelop"></i> Définition de l'identité de marque
-                                        (benchmark, charte graphique, logo)
-                                    </li>
-                                    <li>
-                                        <i class="fa-brands fa-connectdevelop"></i> Réalisation des wireframes et des
-                                        maquettes (Figma, Photoshop)
-                                    </li>
-                                    <li>
-                                        <i class="fa-brands fa-connectdevelop"></i> Conception de l'application web
-                                        (arborescence, backlog)
-                                    </li>
-                                    <li>
-                                        <i class="fa-brands fa-connectdevelop"></i> Développement côté client de
-                                        l'application web (HTML, CSS, Sass, Bootstrap, Javascript, jQuery)
-                                    </li>
-                                    <li class="mb-0">
-                                        <i class="fa-brands fa-connectdevelop"></i> Travail en méthode Agile et
-                                        pair-programming (Jira, Confluence, GIT)
                                     </li>
                                 </ul>
                                 </p>
@@ -180,6 +185,7 @@
     right: 0;
     width: 50%;
 }
+
 .rectangle-bottom {
     height: 450px;
     top: 200px;
@@ -284,6 +290,7 @@
         right: 30px;
         width: 40%;
     }
+
     .rectangle-bottom {
         left: 30px;
         width: 50%;

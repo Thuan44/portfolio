@@ -6,72 +6,63 @@
 
                 <!-- Project 1 -->
                 <div class="main-content project-1">
-                    <a
-                        href="https://pournoobs-frontend.herokuapp.com"
-                        target="_blank"
-                        class="img-link"
-                    >
+                    <a href="https://alif-baa.vercel.app/" target="_blank" class="img-link">
                         <div class="project-img-container">
-                            <img
-                                src="@/assets/img/projects/pournoobs.png"
-                                class="w-100 project-img project-img-1"
-                            />
+                            <img src="@/assets/img/projects/alifbaa.png" class="w-100 project-img project-img-1" />
                         </div>
                     </a>
                     <div class="project-content">
                         <h3 class="project-title">
-                            <span class="whity">Pournoobs</span>
+                            <span class="whity">Alif Baa</span>
                         </h3>
                         <div class="project-description">
                             <p class="project-1-para-1">
-                                Une plateforme d'apprentissage en ligne spécialisée dans l'univers de l'e-sport.
-                                Cette application web permet à n'importe quel "noob" de monter en compétences sur le gaming, le livestreaming et d'autres domaines et ce, en toute autonomie.
+                                Cette plateforme permet à n’importe qui, même sans aucune base, d’apprendre à
+                                lire l’alphabet arabe de façon simple et progressive. Grâce à un mode entraînement
+                                interactif et un mode quiz ludique, les utilisateurs peuvent assimiler chaque lettre à leur
+                                rythme, tester leurs connaissances et suivre leur progression.
                             </p>
-                            <p
-                                class="project-1-para-2 mb-0"
-                            >La charte graphique reprend celle d'un célèbre site et démontre que l'on peut faire preuve à la fois d'humour et de sérieux en même temps.</p>
+                            <p class="project-1-para-2 mb-0">Une solution idéale pour débuter l’apprentissage de la langue
+                                arabe en toute autonomie.</p>
                         </div>
                         <ul class="techno-list techno-list-1 list-unstyled d-flex gap-5 mt-3">
-                            <li class="whity">Vue.js</li>
-                            <li class="whity bootstrap">Bootstrap</li>
-                            <li class="whity">Laravel</li>
-                            <li class="whity">Heroku</li>
+                            <li class="whity">React</li>
+                            <li class="whity bootstrap">Zustand</li>
+                            <li class="whity">Tailwind CSS</li>
                         </ul>
                     </div>
-                    <a href="https://pournoobs-frontend.herokuapp.com" target="_blank">
+                    <a href="https://alif-baa.vercel.app/" target="_blank">
                         <i class="fa-solid fa-arrow-up-right-from-square link-icon"></i>
                     </a>
                 </div>
 
                 <!-- Project 2 -->
                 <div class="main-content project-2">
-                    <a href="https://nea-lissage-pro.com/" target="_blank" class="img-link">
+                    <a href="https://ai-resume-analyzer-nine-nu.vercel.app/" target="_blank" class="img-link">
                         <div class="project-img-container">
-                            <img
-                                src="@/assets/img/projects/nea_lissage_pro.png"
-                                class="w-100 project-img project-img-1"
-                            />
+                            <img src="@/assets/img/projects/resumind.jpg" class="w-100 project-img project-img-1" />
                         </div>
                     </a>
                     <div class="project-content">
                         <h3 class="project-title">
-                            <span class="whity">Nea Lissage Pro</span>
+                            <span class="whity">Resumind</span>
                         </h3>
                         <div class="project-description">
-                            <p
-                                class="project-1-para-1"
-                            >Site e-commerce pour une marque de produits de lissage brésilien. Désireuse d'étendre son activité et d'obtenir un canal de vente supplémentaire, la créatrice m'a contacté afin que nous collaborions et lui offrions un outil personnalisé et à l'image de son entreprise.</p>
-                            <p
-                                class="project-1-para-2 mb-0"
-                            >Le thème Wordpress utilisé est "Astra" et les pages ont été construites à l'aide d'Elementor Pro.</p>
+                            <p class="project-1-para-1">Cet outil permet à tout candidat de charger son CV et de
+                                le comparer à une offre d’emploi pour en obtenir un score ATS. En quelques secondes et grâce
+                                à l’intelligence artificielle de Puter, il analyse la pertinence du CV par rapport aux
+                                mots-clés, aux compétences et aux exigences du poste ciblé.
+                            </p>
+                            <p class="project-1-para-2 mb-0">Un moyen simple, rapide et autonome d’optimiser sa candidature
+                                et de maximiser ses chances de passer les filtres automatisés des recruteurs.</p>
                         </div>
                         <ul class="techno-list techno-list-2 list-unstyled d-flex gap-5 mt-3">
-                            <li class="whity">Wordpress</li>
-                            <li class="whity">Woocommerce</li>
-                            <li class="whity">Stripe</li>
+                            <li class="whity">React</li>
+                            <li class="whity">Tailwind CSS</li>
+                            <li class="whity">Puter</li>
                         </ul>
                     </div>
-                    <a href="https://nea-lissage-pro.com/" target="_blank">
+                    <a href="https://ai-resume-analyzer-nine-nu.vercel.app/" target="_blank">
                         <i class="fa-solid fa-arrow-up-right-from-square link-icon"></i>
                     </a>
                 </div>
@@ -182,6 +173,7 @@ main {
             left: -80px;
         }
     }
+
     .project-2 {
         text-align: left;
         justify-content: start;

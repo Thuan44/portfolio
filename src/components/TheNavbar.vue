@@ -21,24 +21,13 @@
                         <a href="#contact" class="link-item">Contact</a>
                     </li>
                     <li>
-                        <a
-                            class="btn cv-btn"
-                            href="/CV_Cong-Thuan_DO_FS_DEV.pdf"
-                            download
-                        >Télécharger CV</a>
+                        <a class="btn cv-btn" href="/DO_Cong-Thuan_CV_Développeur_FrontEnd.pdf" download>Télécharger CV</a>
                     </li>
                 </ul>
             </div>
         </div>
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa-solid fa-bars"></i>
         </button>
     </nav>
@@ -125,6 +114,7 @@ nav {
         font-family: "Electrolize", sans-serif;
         border-radius: 0;
         padding: 5px 10px;
+
         &:hover {
             filter: brightness(110%);
             background-color: rgba(62, 96, 70, 0.3);
@@ -136,6 +126,7 @@ nav {
     .navbar-collapse {
         margin-top: 30px;
     }
+
     .menu {
         display: flex !important;
         flex-direction: column;
@@ -149,6 +140,7 @@ nav {
     .logo-menu {
         padding: 0;
     }
+
     .logo-container {
         margin-left: 0 !important;
         width: 60px !important;

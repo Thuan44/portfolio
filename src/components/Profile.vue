@@ -25,9 +25,11 @@
                     </p>
                     <p class="profile-description para-3">
                         Mon <span class="whity">expérience multi-projets en agence web</span>, couplée à une expérience
-                        passée en <span class="whity">communication digitale</span>, me permet d’avoir une vision globale
+                        passée en <span class="whity">communication digitale</span>, me permet d’avoir une vision
+                        globale
                         des besoins clients et des enjeux métiers. Cela représente
-                        un véritable atout pour concevoir des interfaces à la fois efficaces, intuitives et alignées avec
+                        un véritable atout pour concevoir des interfaces à la fois efficaces, intuitives et alignées
+                        avec
                         les objectifs des entreprises.
                     </p>
                     <p class="profile-description mb-4">
@@ -54,7 +56,7 @@
                                 <i class="fa-solid fa-terminal"></i> Laravel
                             </li>
                             <li>
-                                <i class="fa-solid fa-terminal"></i> MySQL
+                                <i class="fa-solid fa-terminal"></i> NestJS
                             </li>
                         </ul>
                     </div>

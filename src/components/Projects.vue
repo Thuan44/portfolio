@@ -19,15 +19,17 @@
                             <p class="project-1-para-1">
                                 Cette plateforme permet à n’importe qui, même sans aucune base, d’apprendre à
                                 lire l’alphabet arabe de façon simple et progressive. Grâce à un mode entraînement
-                                interactif et un mode quiz ludique, les utilisateurs peuvent assimiler chaque lettre à leur
+                                interactif et un mode quiz ludique, les utilisateurs peuvent assimiler chaque lettre à
+                                leur
                                 rythme, tester leurs connaissances et suivre leur progression.
                             </p>
-                            <p class="project-1-para-2 mb-0">Une solution idéale pour débuter l’apprentissage de la langue
+                            <p class="project-1-para-2 mb-0">Une solution idéale pour débuter l’apprentissage de la
+                                langue
                                 arabe en toute autonomie.</p>
                         </div>
                         <ul class="techno-list techno-list-1 list-unstyled d-flex gap-5 mt-3">
                             <li class="whity">React</li>
-                            <li class="whity bootstrap">Zustand</li>
+                            <li class="whity">Zustand</li>
                             <li class="whity">Tailwind CSS</li>
                         </ul>
                     </div>
@@ -38,6 +40,36 @@
 
                 <!-- Project 2 -->
                 <div class="main-content project-2">
+                    <a href="https://broffee.vercel.app/" target="_blank" class="img-link">
+                        <div class="project-img-container">
+                            <img src="@/assets/img/projects/broffee.png" class="w-100 project-img project-img-1" />
+                        </div>
+                    </a>
+                    <div class="project-content">
+                        <h3 class="project-title">
+                            <span class="whity">Broffee</span>
+                        </h3>
+                        <div class="project-description">
+                            <p class="project-2-para-1">
+                                Broffee est né de l'envie de deux amis de renforcer leurs liens amicaux à travers la
+                                documentation des moments partagés. Cette plateforme offre une façon unique de
+                                documenter et de réfléchir sur ces instants de convivialité autour d'un café.
+                            </p>
+                            <p class="project-2-para-2 mb-0">Testez l'application au rythme de vos amitiés.</p>
+                        </div>
+                        <ul class="techno-list techno-list-2 list-unstyled d-flex gap-5 mt-3">
+                            <li class="whity">React</li>
+                            <li class="whity">NestJS</li>
+                            <li class="whity">PostgreSQL</li>
+                        </ul>
+                    </div>
+                    <a href="https://broffee.vercel.app/" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square link-icon"></i>
+                    </a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="main-content project-3">
                     <a href="https://ai-resume-analyzer-nine-nu.vercel.app/" target="_blank" class="img-link">
                         <div class="project-img-container">
                             <img src="@/assets/img/projects/resumind.jpg" class="w-100 project-img project-img-1" />
@@ -48,15 +80,17 @@
                             <span class="whity">Resumind</span>
                         </h3>
                         <div class="project-description">
-                            <p class="project-1-para-1">Cet outil permet à tout candidat de charger son CV et de
-                                le comparer à une offre d’emploi pour en obtenir un score ATS. En quelques secondes et grâce
+                            <p class="project-3-para-1">Cet outil permet à tout candidat de charger son CV et de
+                                le comparer à une offre d’emploi pour en obtenir un score ATS. En quelques secondes et
+                                grâce
                                 à l’intelligence artificielle de Puter, il analyse la pertinence du CV par rapport aux
                                 mots-clés, aux compétences et aux exigences du poste ciblé.
                             </p>
-                            <p class="project-1-para-2 mb-0">Un moyen simple, rapide et autonome d’optimiser sa candidature
+                            <p class="project-3-para-2 mb-0">Un moyen simple, rapide et autonome d’optimiser sa
+                                candidature
                                 et de maximiser ses chances de passer les filtres automatisés des recruteurs.</p>
                         </div>
-                        <ul class="techno-list techno-list-2 list-unstyled d-flex gap-5 mt-3">
+                        <ul class="techno-list techno-list-1 list-unstyled d-flex gap-5 mt-3">
                             <li class="whity">React</li>
                             <li class="whity">Tailwind CSS</li>
                             <li class="whity">Puter</li>
@@ -107,6 +141,7 @@ main {
         display: flex;
 
         .project-img-container {
+            height: 350px;
             width: 60%;
             max-width: 700px;
             position: absolute;
@@ -135,6 +170,8 @@ main {
             }
 
             .project-img {
+                height: 100%;
+                width: 100%;
                 object-fit: cover;
             }
         }
@@ -165,7 +202,8 @@ main {
         }
     }
 
-    .project-1 {
+    .project-1,
+    .project-3 {
         text-align: right;
         justify-content: end;
 
@@ -246,6 +284,13 @@ main {
     }
 
     .project-2 {
+        background-image: url("@/assets/img/projects/broffee.png") !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+
+    .project-3 {
         background-image: url("@/assets/img/projects/resumind.jpg") !important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
